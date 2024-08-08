@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 input[type="checkbox"] {
     display: none;
 }
@@ -48,7 +42,7 @@ div.ah-gallery {
 .ah-gallery {
    display: grid;
    grid-template-columns: repeat(9, 1fr);
-   grid-template-rows: repeat(11, 5vw);
+   grid-template-rows: repeat(13, 5vw);
    grid-gap: 3px;
 }
 .ah-gallery__img {
@@ -60,7 +54,7 @@ div.ah-gallery {
 	grid-column-start: 1;
 	grid-column-end: 3;
 	grid-row-start: 1;
-	grid-row-end: 3;
+	grid-row-end: 4;
   
 	/** Alternative Syntax **/
 	/* grid-column: 1 / span 2;  */
@@ -71,7 +65,7 @@ div.ah-gallery {
 	grid-column-start: 3;
 	grid-column-end: 5;
 	grid-row-start: 1;
-	grid-row-end: 3;
+	grid-row-end: 4;
   
 	/** Alternative Syntax **/
 	/* grid-column: 3 / span 2;  */
@@ -82,7 +76,7 @@ div.ah-gallery {
 	grid-column-start: 5;
 	grid-column-end: 9;
 	grid-row-start: 1;
-	grid-row-end: 6;
+	grid-row-end: 7;
   
 	/** Alternative Syntax **/
 	/* grid-column: 5 / span 4;
@@ -92,8 +86,8 @@ div.ah-gallery {
 .ah-gallery__item--4 {
 	grid-column-start: 1;
 	grid-column-end: 5;
-	grid-row-start: 3;
-	grid-row-end: 6;
+	grid-row-start: 4;
+	grid-row-end: 7;
   
 	/** Alternative Syntax **/
 	/* grid-column: 1 / span 4;  */
@@ -103,8 +97,8 @@ div.ah-gallery {
   .ah-gallery__item--5 {
 	grid-column-start: 1;
 	grid-column-end: 5;
-	grid-row-start: 6;
-	grid-row-end: 9;
+	grid-row-start: 7;
+	grid-row-end: 11;
   
 	/** Alternative Syntax **/
 	/* grid-column: 1 / span 4; */
@@ -113,15 +107,15 @@ div.ah-gallery {
   .ah-gallery__item--6 {
 	grid-column-start: 5;
 	grid-column-end: 9;
-	grid-row-start: 6;
-	grid-row-end: 9;
+	grid-row-start: 7;
+	grid-row-end: 11;
   }
 
   .ah-gallery__item--7 {
 	grid-column-start: 1;
 	grid-column-end: 3;
-	grid-row-start: 9;
-	grid-row-end: 12;
+	grid-row-start: 11;
+	grid-row-end: 14;
   
 	/** Alternative Syntax **/
 	/* grid-column: 1 / span 4; */
@@ -130,15 +124,15 @@ div.ah-gallery {
   .ah-gallery__item--8 {
 	grid-column-start: 3;
 	grid-column-end: 5;
-	grid-row-start: 9;
-	grid-row-end: 12;
+	grid-row-start: 11;
+	grid-row-end: 14;
 
   }
   .ah-gallery__item--9 {
 	grid-column-start: 5;
 	grid-column-end: 7;
-	grid-row-start: 9;
-	grid-row-end: 12;
+	grid-row-start: 11;
+	grid-row-end: 14;
   
 	/** Alternative Syntax **/
 	/* grid-column: 1 / span 4; */
@@ -147,8 +141,8 @@ div.ah-gallery {
   .ah-gallery__item--10 {
 	grid-column-start: 7;
 	grid-column-end: 9;
-	grid-row-start: 9;
-	grid-row-end: 12;
+	grid-row-start: 11;
+	grid-row-end: 14;
 
   }
 
